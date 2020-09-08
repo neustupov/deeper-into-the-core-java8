@@ -1,4 +1,4 @@
-package neustupov.innerclasses.Parcel;
+package neustupov.innerclasses.percel;
 
 public interface Destination {
 
