@@ -1,5 +1,6 @@
 package neustupov.rtti;
 
+//Параметризация при динамическом определении типа
 public class CountedInteger {
 
   private static long counter;

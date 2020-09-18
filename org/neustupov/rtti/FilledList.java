@@ -3,6 +3,7 @@ package neustupov.rtti;
 import java.util.ArrayList;
 import java.util.List;
 
+//Параметризация при динамическом определении типа
 public class FilledList<T> {
 
   private Class<T> type;
