@@ -1,4 +1,4 @@
-package neustupov.generics.genericarrays;
+package neustupov.generics.genericArrays;
 
 import java.lang.reflect.Array;
 

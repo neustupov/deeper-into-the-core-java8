@@ -1,4 +1,4 @@
-package neustupov.generics.genericArrays;
+package neustupov.generics.genericarrays;
 
 public class GenericArray<T> {
 
