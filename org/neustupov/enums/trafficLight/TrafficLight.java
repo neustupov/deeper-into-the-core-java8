@@ -1,4 +1,4 @@
-package neustupov.enums.TrafficLight;
+package neustupov.enums.trafficLight;
 
 public class TrafficLight {
 
@@ -16,7 +16,7 @@ public class TrafficLight {
 
   @Override
   public String toString() {
-    return "TrafficLight{" +
+    return "trafficLight{" +
         "color=" + color +
         '}';
   }

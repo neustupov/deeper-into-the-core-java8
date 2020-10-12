@@ -1,4 +1,4 @@
-package neustupov.enums.TrafficLight;
+package neustupov.enums.trafficLight;
 
 public enum Signal {
   GREEN,
