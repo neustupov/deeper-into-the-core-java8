@@ -18,6 +18,7 @@ public class CallableDemo2 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        exec.shutdown();
         for(Future<Object> fo : results){
             try {
                 fo.get();
