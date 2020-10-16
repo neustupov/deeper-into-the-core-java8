@@ -3,10 +3,10 @@ package neustupov.multithreads.concurrency;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class EventChecker implements Runnable{
+public class EvenChecker implements Runnable{
     private IntGenerator generator;
     private final int id;
-    public EventChecker(IntGenerator g, int ident){
+    public EvenChecker(IntGenerator g, int ident){
         generator = g;
         id = ident;
     }
@@ -27,7 +27,7 @@ public class EventChecker implements Runnable{
 
         ExecutorService exec = Executors.newCachedThreadPool();
         for(int i = 0; i < count; i++){
-            exec.execute(new EventChecker(gp, i));
+            exec.execute(new EvenChecker(gp, i));
         }
 
         exec.shutdown();

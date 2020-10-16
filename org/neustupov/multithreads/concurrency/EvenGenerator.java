@@ -3,13 +3,13 @@ package neustupov.multithreads.concurrency;
 public class EvenGenerator extends IntGenerator{
     private int currentEvenValue = 0;
     @Override
-    public int next() {
+    public synchronized int next() {
         ++currentEvenValue;
         ++currentEvenValue;
         return currentEvenValue;
     }
 
     public static void main(String[] args) {
-        EventChecker.test(new EvenGenerator());
+        EvenChecker.test(new EvenGenerator());
     }
 }
