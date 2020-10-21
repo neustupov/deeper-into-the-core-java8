@@ -1,4 +1,4 @@
-package neustupov.multithreads.newcomponents;
+package neustupov.multithreads.newcomponents.coundownlatch;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
